@@ -15,7 +15,10 @@ export default function Product() {
       <div>
         {product.map((data) => (
           <div className="data">
-            {data.name} <Link to={`/product/${data.id}`}>view</Link>
+            {data.name}{" "}
+            <span>
+              <Link to={`/product/${data.id}`}>VIEW</Link>
+            </span>
           </div>
         ))}
       </div>
