@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+.component{
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
